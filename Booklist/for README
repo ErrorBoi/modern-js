@@ -1,0 +1,4 @@
+Made UI and algorithms using ES (factories) & ES6 (classes). As a additional task, used localStorage for saving books as a JSON string.
+Improved teacher's solution, because it had several noisy issues:
+- showAlert('something', 'success') triggered every time you click in <tr> body, but it should trigger only when book is deleted, so i put this in deleteBook method.
+- Store.removeBook didn't work at all and also it was a bit confusing.
